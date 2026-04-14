@@ -30,7 +30,7 @@ public class SubjectSetDemo {
         contains(): check if subject exists
         ==================*/
         System.out.println("Math exists: " + subjectNames.contains("Math"));
-        System.out.println("Art exists: " + subjectNames.contains("Art"));
+        System.out.println("Music exists: " + subjectNames.contains("Music"));
 
         //remove one element  name
         subjectNames.remove("Science");
