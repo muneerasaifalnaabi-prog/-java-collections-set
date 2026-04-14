@@ -25,13 +25,13 @@ public class ProductSetDemo1 {
         contains(): check if product exists
         ==================*/
         System.out.println("iPhone 15 exists: " + productNames.contains("iPhone 15"));
-        System.out.println("z.com exists: " + productNames.contains("Samsung Galaxy"));
+        System.out.println("z.com exists: " + productNames.contains("Samsung ultra"));
 
         //remove one element  name
-        productNames.remove("MacBook Pro");
+        productNames.remove("MacBook");
 
         //Display after remove
-        System.out.println("After remove MacBook Pro: " + productNames);
+        System.out.println("After remove MacBook : " + productNames);
 
         /*==================
         size(): total element count
